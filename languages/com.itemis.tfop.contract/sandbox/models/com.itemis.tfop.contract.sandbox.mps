@@ -7,10 +7,15 @@
   <imports />
   <registry>
     <language id="4f7dc983-1a81-45a8-8f1f-765d0d971654" name="com.itemis.tfop.contract">
+      <concept id="6595265661591759310" name="com.itemis.tfop.contract.structure.Conditional" flags="ng" index="1l1jVz">
+        <child id="6595265661591759365" name="contract" index="1l1jOC" />
+        <child id="6595265661591759363" name="condition" index="1l1jOI" />
+      </concept>
       <concept id="6595265661591711228" name="com.itemis.tfop.contract.structure.Scale" flags="ng" index="1l1BFh">
         <child id="6595265661591711233" name="contract" index="1l1B$G" />
         <child id="6595265661591711231" name="factor" index="1l1BFi" />
       </concept>
+      <concept id="6595265661591726457" name="com.itemis.tfop.contract.structure.When" flags="ng" index="1l1FTk" />
       <concept id="6595265661591641053" name="com.itemis.tfop.contract.structure.Give" flags="ng" index="1l1ONK">
         <child id="6595265661591641056" name="contract" index="1l1ONd" />
       </concept>
@@ -129,6 +134,18 @@
       </node>
       <node concept="1lYbf4" id="5I75MOewq_M" role="1l1B$G">
         <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+      </node>
+    </node>
+  </node>
+  <node concept="1lY08d" id="5I75MOewqA8">
+    <property role="3GE5qa" value="simple" />
+    <property role="TrG5h" value="when_false_one_usd" />
+    <node concept="1l1FTk" id="5I75MOewAER" role="1lY09E">
+      <node concept="1l1Wus" id="5I75MOewAEY" role="1l1jOI">
+        <node concept="1l1Wug" id="5I75MOewAF3" role="1l1WvD" />
+      </node>
+      <node concept="1lYbf4" id="5I75MOewAF6" role="1l1jOC">
+        <ref role="1l1M3o" node="5I75MOew3vM" resolve="USD" />
       </node>
     </node>
   </node>
