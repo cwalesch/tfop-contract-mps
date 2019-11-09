@@ -15,6 +15,7 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
@@ -314,6 +315,17 @@
       <node concept="3F0A7n" id="5I75MOewI2A" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3F0ifn" id="5I75MOewN69" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F2HdR" id="5I75MOewN6R" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="lypz:5I75MOewN5V" resolve="args" />
+        <node concept="l2Vlx" id="5I75MOewN6T" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="5I75MOewN6u" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
       <node concept="3F0ifn" id="5I75MOewI2J" role="3EZMnx">
         <property role="3F0ifm" value=":=" />
       </node>
@@ -321,6 +333,26 @@
         <ref role="1NtTu8" to="lypz:5I75MOewI2e" resolve="definition" />
       </node>
       <node concept="l2Vlx" id="5I75MOewI2v" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5I75MOewN5P">
+    <property role="3GE5qa" value="module" />
+    <ref role="1XX52x" to="lypz:5I75MOewN5L" resolve="ArgDecl" />
+    <node concept="3F0A7n" id="5I75MOewN5R" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5I75MOewSuJ">
+    <property role="3GE5qa" value="module" />
+    <ref role="1XX52x" to="lypz:5I75MOewSuw" resolve="ArgRef" />
+    <node concept="1iCGBv" id="5I75MOewSuL" role="2wV5jI">
+      <ref role="1NtTu8" to="lypz:5I75MOewSu$" resolve="target" />
+      <node concept="1sVBvm" id="5I75MOewSuN" role="1sWHZn">
+        <node concept="3F0A7n" id="5I75MOewSuX" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

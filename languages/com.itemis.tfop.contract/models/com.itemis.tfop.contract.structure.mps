@@ -346,6 +346,13 @@
     <property role="TrG5h" value="ContractFunDef" />
     <property role="34LRSv" value="fun" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5I75MOewN5V" role="1TKVEi">
+      <property role="IQ2ns" value="6595265661591826811" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5I75MOewN5L" resolve="ArgDecl" />
+    </node>
     <node concept="PrWs8" id="5I75MOewI28" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -364,6 +371,31 @@
     <property role="EcuMT" value="6595265661591799941" />
     <property role="3GE5qa" value="module" />
     <property role="TrG5h" value="ModuleContent" />
+  </node>
+  <node concept="1TIwiD" id="5I75MOewN5L">
+    <property role="EcuMT" value="6595265661591826801" />
+    <property role="3GE5qa" value="module" />
+    <property role="TrG5h" value="ArgDecl" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5I75MOewN5M" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5I75MOewSuw">
+    <property role="EcuMT" value="6595265661591848864" />
+    <property role="3GE5qa" value="module" />
+    <property role="TrG5h" value="ArgRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5I75MOewSux" role="PzmwI">
+      <ref role="PrY4T" node="5I75MOewd2O" resolve="Value" />
+    </node>
+    <node concept="1TJgyj" id="5I75MOewSu$" role="1TKVEi">
+      <property role="IQ2ns" value="6595265661591848868" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5I75MOewN5L" resolve="ArgDecl" />
+    </node>
   </node>
 </model>
 

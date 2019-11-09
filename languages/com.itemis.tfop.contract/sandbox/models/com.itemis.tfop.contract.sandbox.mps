@@ -7,6 +7,10 @@
   <imports />
   <registry>
     <language id="4f7dc983-1a81-45a8-8f1f-765d0d971654" name="com.itemis.tfop.contract">
+      <concept id="6595265661591826801" name="com.itemis.tfop.contract.structure.ArgDecl" flags="ng" index="1l12ps" />
+      <concept id="6595265661591848864" name="com.itemis.tfop.contract.structure.ArgRef" flags="ng" index="1l192d">
+        <reference id="6595265661591848868" name="target" index="1l1929" />
+      </concept>
       <concept id="6595265661591759310" name="com.itemis.tfop.contract.structure.Conditional" flags="ng" index="1l1jVz">
         <child id="6595265661591759365" name="contract" index="1l1jOC" />
         <child id="6595265661591759363" name="condition" index="1l1jOI" />
@@ -17,6 +21,7 @@
         <child id="6595265661591799954" name="content" index="1l1tYZ" />
       </concept>
       <concept id="6595265661591799940" name="com.itemis.tfop.contract.structure.ContractFunDef" flags="ng" index="1l1tYD">
+        <child id="6595265661591826811" name="args" index="1l12pm" />
         <child id="6595265661591806094" name="definition" index="1l1vuz" />
       </concept>
       <concept id="6595265661591799939" name="com.itemis.tfop.contract.structure.Newline" flags="ng" index="1l1tYI" />
@@ -186,13 +191,16 @@
       <property role="TrG5h" value="zcb" />
       <node concept="1l1BFh" id="5I75MOewN2j" role="1l1vuz">
         <node concept="1l1Wus" id="5I75MOewN2t" role="1l1BFi">
-          <node concept="1l1Wuo" id="5I75MOewN2$" role="1l1WvD">
-            <property role="1l1Wul" value="100" />
+          <node concept="1l192d" id="5I75MOewYFB" role="1l1WvD">
+            <ref role="1l1929" node="5I75MOewSut" resolve="amount" />
           </node>
         </node>
         <node concept="1lYbf4" id="5I75MOewN2C" role="1l1B$G">
           <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
         </node>
+      </node>
+      <node concept="1l12ps" id="5I75MOewSut" role="1l12pm">
+        <property role="TrG5h" value="amount" />
       </node>
     </node>
     <node concept="1l1tYI" id="5I75MOewN2G" role="1l1tYZ" />
