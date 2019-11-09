@@ -10,6 +10,15 @@
       <concept id="6595265661591641053" name="com.itemis.tfop.contract.structure.Give" flags="ng" index="1l1ONK">
         <child id="6595265661591641056" name="contract" index="1l1ONd" />
       </concept>
+      <concept id="6595265661591649862" name="com.itemis.tfop.contract.structure.And" flags="ng" index="1l1Q_F">
+        <child id="6595265661591649917" name="second" index="1l1Q_g" />
+        <child id="6595265661591649915" name="first" index="1l1Q_m" />
+      </concept>
+      <concept id="6595265661591659509" name="com.itemis.tfop.contract.structure.Pair" flags="ng" index="1l1Vjo">
+        <child id="6595265661591659511" name="second" index="1l1Vjq" />
+        <child id="6595265661591659510" name="first" index="1l1Vjr" />
+      </concept>
+      <concept id="6595265661591659504" name="com.itemis.tfop.contract.structure.Or" flags="ng" index="1l1Vjt" />
       <concept id="6595265661591557408" name="com.itemis.tfop.contract.structure.ContractDefinition" flags="ng" index="1lY08d">
         <child id="6595265661591557447" name="definition" index="1lY09E" />
       </concept>
@@ -54,6 +63,30 @@
     <node concept="1l1ONK" id="5I75MOew7SY" role="1lY09E">
       <node concept="1lYbf4" id="5I75MOew7T3" role="1l1ONd">
         <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+      </node>
+    </node>
+  </node>
+  <node concept="1lY08d" id="5I75MOewafx">
+    <property role="3GE5qa" value="simple" />
+    <property role="TrG5h" value="one_usd_and_zero" />
+    <node concept="1l1Q_F" id="5I75MOewafz" role="1lY09E">
+      <node concept="1lYbf4" id="5I75MOewafE" role="1l1Q_m">
+        <ref role="1l1M3o" node="5I75MOew3vM" resolve="USD" />
+      </node>
+      <node concept="1lY08P" id="5I75MOewafH" role="1l1Q_g" />
+    </node>
+  </node>
+  <node concept="1lY08d" id="5I75MOewcCn">
+    <property role="3GE5qa" value="simple" />
+    <property role="TrG5h" value="one_eur_or_give_one_eur" />
+    <node concept="1l1Vjt" id="5I75MOewcCp" role="1lY09E">
+      <node concept="1lYbf4" id="5I75MOewcCw" role="1l1Vjr">
+        <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+      </node>
+      <node concept="1l1ONK" id="5I75MOewcCz" role="1l1Vjq">
+        <node concept="1lYbf4" id="5I75MOewcCC" role="1l1ONd">
+          <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+        </node>
       </node>
     </node>
   </node>

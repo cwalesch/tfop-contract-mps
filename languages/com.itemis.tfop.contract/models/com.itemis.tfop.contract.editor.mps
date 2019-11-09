@@ -8,6 +8,7 @@
   <imports>
     <import index="lypz" ref="r:9fb7ebd8-2e69-4007-95cb-7519b4c032c1(com.itemis.tfop.contract.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -15,6 +16,9 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
@@ -103,6 +107,22 @@
         <ref role="1NtTu8" to="lypz:5I75MOew5Jw" resolve="contract" />
       </node>
       <node concept="l2Vlx" id="5I75MOew5JB" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5I75MOewag9">
+    <property role="3GE5qa" value="contract" />
+    <ref role="1XX52x" to="lypz:5I75MOewafP" resolve="Pair" />
+    <node concept="3EZMnI" id="5I75MOewagb" role="2wV5jI">
+      <node concept="3F1sOY" id="5I75MOewagc" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewafQ" resolve="first" />
+      </node>
+      <node concept="PMmxH" id="5I75MOewagl" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="5I75MOewage" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewafR" resolve="second" />
+      </node>
+      <node concept="l2Vlx" id="5I75MOewagf" role="2iSdaV" />
     </node>
   </node>
 </model>
