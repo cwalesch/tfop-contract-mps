@@ -12,6 +12,7 @@
         <child id="6595265661591759363" name="condition" index="1l1jOI" />
       </concept>
       <concept id="6595265661591778292" name="com.itemis.tfop.contract.structure.Anytime" flags="ng" index="1l1mjp" />
+      <concept id="6595265661591780763" name="com.itemis.tfop.contract.structure.Until" flags="ng" index="1l1mEQ" />
       <concept id="6595265661591711228" name="com.itemis.tfop.contract.structure.Scale" flags="ng" index="1l1BFh">
         <child id="6595265661591711233" name="contract" index="1l1B$G" />
         <child id="6595265661591711231" name="factor" index="1l1BFi" />
@@ -160,6 +161,16 @@
         </node>
       </node>
       <node concept="1lY08P" id="5I75MOewBQk" role="1l1jOC" />
+    </node>
+  </node>
+  <node concept="1lY08d" id="5I75MOewBQs">
+    <property role="3GE5qa" value="simple" />
+    <property role="TrG5h" value="until_false_zero" />
+    <node concept="1l1mEQ" id="5I75MOewCud" role="1lY09E">
+      <node concept="1l1Wus" id="5I75MOewCuk" role="1l1jOI">
+        <node concept="1l1Wug" id="5I75MOewCup" role="1l1WvD" />
+      </node>
+      <node concept="1lY08P" id="5I75MOewCus" role="1l1jOC" />
     </node>
   </node>
 </model>
