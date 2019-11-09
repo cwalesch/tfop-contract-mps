@@ -19,6 +19,15 @@
         <child id="6595265661591659510" name="first" index="1l1Vjr" />
       </concept>
       <concept id="6595265661591659504" name="com.itemis.tfop.contract.structure.Or" flags="ng" index="1l1Vjt" />
+      <concept id="6595265661591670957" name="com.itemis.tfop.contract.structure.Cond" flags="ng" index="1l1Wu0">
+        <child id="6595265661591670994" name="condition" index="1l1WvZ" />
+      </concept>
+      <concept id="6595265661591670973" name="com.itemis.tfop.contract.structure.BoolValue" flags="ng" index="1l1Wug">
+        <property id="6595265661591670976" name="value" index="1l1WvH" />
+      </concept>
+      <concept id="6595265661591670961" name="com.itemis.tfop.contract.structure.Const" flags="ng" index="1l1Wus">
+        <child id="6595265661591670980" name="value" index="1l1WvD" />
+      </concept>
       <concept id="6595265661591557408" name="com.itemis.tfop.contract.structure.ContractDefinition" flags="ng" index="1lY08d">
         <child id="6595265661591557447" name="definition" index="1lY09E" />
       </concept>
@@ -88,6 +97,21 @@
           <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1lY08d" id="5I75MOewgea">
+    <property role="3GE5qa" value="simple" />
+    <property role="TrG5h" value="cond_true_one_zero" />
+    <node concept="1l1Wu0" id="5I75MOewgec" role="1lY09E">
+      <node concept="1l1Wus" id="5I75MOewgel" role="1l1WvZ">
+        <node concept="1l1Wug" id="5I75MOewgeq" role="1l1WvD">
+          <property role="1l1WvH" value="true" />
+        </node>
+      </node>
+      <node concept="1lYbf4" id="5I75MOewget" role="1l1Vjr">
+        <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+      </node>
+      <node concept="1lY08P" id="5I75MOewgew" role="1l1Vjq" />
     </node>
   </node>
 </model>

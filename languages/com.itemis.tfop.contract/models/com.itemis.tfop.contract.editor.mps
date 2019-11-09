@@ -125,5 +125,51 @@
       <node concept="l2Vlx" id="5I75MOewagf" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="5I75MOewd2Q">
+    <property role="3GE5qa" value="value" />
+    <ref role="1XX52x" to="lypz:5I75MOewd2P" resolve="DecimalValue" />
+    <node concept="3F0A7n" id="5I75MOewd2U" role="2wV5jI">
+      <ref role="1NtTu8" to="lypz:5I75MOewd2S" resolve="value" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5I75MOewd36">
+    <property role="3GE5qa" value="observable" />
+    <ref role="1XX52x" to="lypz:5I75MOewd2L" resolve="Const" />
+    <node concept="3F1sOY" id="5I75MOewd38" role="2wV5jI">
+      <ref role="1NtTu8" to="lypz:5I75MOewd34" resolve="value" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5I75MOewd3k">
+    <property role="3GE5qa" value="contract" />
+    <ref role="1XX52x" to="lypz:5I75MOewd2H" resolve="Cond" />
+    <node concept="3EZMnI" id="5I75MOewd3m" role="2wV5jI">
+      <node concept="3F0ifn" id="5I75MOewd3t" role="3EZMnx">
+        <property role="3F0ifm" value="cond" />
+      </node>
+      <node concept="3F1sOY" id="5I75MOewd3F" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewd3i" resolve="condition" />
+      </node>
+      <node concept="3F0ifn" id="5I75MOewd3N" role="3EZMnx">
+        <property role="3F0ifm" value="then" />
+      </node>
+      <node concept="3F1sOY" id="5I75MOewd3X" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewafQ" resolve="first" />
+      </node>
+      <node concept="3F0ifn" id="5I75MOewd49" role="3EZMnx">
+        <property role="3F0ifm" value="else" />
+      </node>
+      <node concept="3F1sOY" id="5I75MOewd4n" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewafR" resolve="second" />
+      </node>
+      <node concept="l2Vlx" id="5I75MOewd3p" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5I75MOewgez">
+    <property role="3GE5qa" value="value" />
+    <ref role="1XX52x" to="lypz:5I75MOewd2X" resolve="BoolValue" />
+    <node concept="3F0A7n" id="5I75MOewge_" role="2wV5jI">
+      <ref role="1NtTu8" to="lypz:5I75MOewd30" resolve="value" />
+    </node>
+  </node>
 </model>
 
