@@ -10,10 +10,7 @@
       <concept id="6595265661591641053" name="com.itemis.tfop.contract.structure.Give" flags="ng" index="1l1ONK">
         <child id="6595265661591641056" name="contract" index="1l1ONd" />
       </concept>
-      <concept id="6595265661591649862" name="com.itemis.tfop.contract.structure.And" flags="ng" index="1l1Q_F">
-        <child id="6595265661591649917" name="second" index="1l1Q_g" />
-        <child id="6595265661591649915" name="first" index="1l1Q_m" />
-      </concept>
+      <concept id="6595265661591649862" name="com.itemis.tfop.contract.structure.And" flags="ng" index="1l1Q_F" />
       <concept id="6595265661591659509" name="com.itemis.tfop.contract.structure.Pair" flags="ng" index="1l1Vjo">
         <child id="6595265661591659511" name="second" index="1l1Vjq" />
         <child id="6595265661591659510" name="first" index="1l1Vjr" />
@@ -78,11 +75,11 @@
   <node concept="1lY08d" id="5I75MOewafx">
     <property role="3GE5qa" value="simple" />
     <property role="TrG5h" value="one_usd_and_zero" />
-    <node concept="1l1Q_F" id="5I75MOewafz" role="1lY09E">
-      <node concept="1lYbf4" id="5I75MOewafE" role="1l1Q_m">
+    <node concept="1l1Q_F" id="5I75MOewmRF" role="1lY09E">
+      <node concept="1lYbf4" id="5I75MOewmRM" role="1l1Vjr">
         <ref role="1l1M3o" node="5I75MOew3vM" resolve="USD" />
       </node>
-      <node concept="1lY08P" id="5I75MOewafH" role="1l1Q_g" />
+      <node concept="1lY08P" id="5I75MOewmRP" role="1l1Vjq" />
     </node>
   </node>
   <node concept="1lY08d" id="5I75MOewcCn">
