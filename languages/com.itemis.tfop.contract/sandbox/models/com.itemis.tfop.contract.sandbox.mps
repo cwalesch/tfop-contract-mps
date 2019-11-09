@@ -13,6 +13,13 @@
       </concept>
       <concept id="6595265661591778292" name="com.itemis.tfop.contract.structure.Anytime" flags="ng" index="1l1mjp" />
       <concept id="6595265661591780763" name="com.itemis.tfop.contract.structure.Until" flags="ng" index="1l1mEQ" />
+      <concept id="6595265661591799935" name="com.itemis.tfop.contract.structure.Module" flags="ng" index="1l1tXi">
+        <child id="6595265661591799954" name="content" index="1l1tYZ" />
+      </concept>
+      <concept id="6595265661591799940" name="com.itemis.tfop.contract.structure.ContractFunDef" flags="ng" index="1l1tYD">
+        <child id="6595265661591806094" name="definition" index="1l1vuz" />
+      </concept>
+      <concept id="6595265661591799939" name="com.itemis.tfop.contract.structure.Newline" flags="ng" index="1l1tYI" />
       <concept id="6595265661591711228" name="com.itemis.tfop.contract.structure.Scale" flags="ng" index="1l1BFh">
         <child id="6595265661591711233" name="contract" index="1l1B$G" />
         <child id="6595265661591711231" name="factor" index="1l1BFi" />
@@ -172,6 +179,52 @@
       </node>
       <node concept="1lY08P" id="5I75MOewCus" role="1l1jOC" />
     </node>
+  </node>
+  <node concept="1l1tXi" id="5I75MOewN1i">
+    <property role="TrG5h" value="ZCB" />
+    <node concept="1l1tYD" id="5I75MOewN2d" role="1l1tYZ">
+      <property role="TrG5h" value="zcb" />
+      <node concept="1l1BFh" id="5I75MOewN2j" role="1l1vuz">
+        <node concept="1l1Wus" id="5I75MOewN2t" role="1l1BFi">
+          <node concept="1l1Wuo" id="5I75MOewN2$" role="1l1WvD">
+            <property role="1l1Wul" value="100" />
+          </node>
+        </node>
+        <node concept="1lYbf4" id="5I75MOewN2C" role="1l1B$G">
+          <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+        </node>
+      </node>
+    </node>
+    <node concept="1l1tYI" id="5I75MOewN2G" role="1l1tYZ" />
+    <node concept="1l1tYD" id="5I75MOewN38" role="1l1tYZ">
+      <property role="TrG5h" value="change_100_eur_in_usd" />
+      <node concept="1l1Q_F" id="5I75MOewN3r" role="1l1vuz">
+        <node concept="1l1BFh" id="5I75MOewN3_" role="1l1Vjr">
+          <node concept="1l1Wus" id="5I75MOewN3J" role="1l1BFi">
+            <node concept="1l1Wuo" id="5I75MOewN3Q" role="1l1WvD">
+              <property role="1l1Wul" value="100" />
+            </node>
+          </node>
+          <node concept="1lYbf4" id="5I75MOewN3U" role="1l1B$G">
+            <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+          </node>
+        </node>
+        <node concept="1l1ONK" id="5I75MOewN3Y" role="1l1Vjq">
+          <node concept="1l1BFh" id="5I75MOewN45" role="1l1ONd">
+            <node concept="1l1Wus" id="5I75MOewN4f" role="1l1BFi">
+              <node concept="1l1Wuo" id="5I75MOewN4m" role="1l1WvD">
+                <property role="1l1Wul" value="110" />
+              </node>
+            </node>
+            <node concept="1lYbf4" id="5I75MOewN4q" role="1l1B$G">
+              <ref role="1l1M3o" node="5I75MOew3vM" resolve="USD" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1l1tYI" id="5I75MOewN4u" role="1l1tYZ" />
+    <node concept="1l1tYI" id="5I75MOewN53" role="1l1tYZ" />
   </node>
 </model>
 

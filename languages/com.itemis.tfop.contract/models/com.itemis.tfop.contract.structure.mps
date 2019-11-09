@@ -56,7 +56,7 @@
     <property role="EcuMT" value="6595265661591557400" />
     <property role="TrG5h" value="Zero" />
     <property role="34LRSv" value="zero" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5I75MOevLkp" role="PzmwI">
       <ref role="PrY4T" node="5I75MOevLkn" resolve="Contract" />
@@ -82,7 +82,7 @@
   </node>
   <node concept="1TIwiD" id="5I75MOevUjD">
     <property role="EcuMT" value="6595265661591594217" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="One" />
     <property role="34LRSv" value="one" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -110,7 +110,7 @@
   </node>
   <node concept="1TIwiD" id="5I75MOew5Jt">
     <property role="EcuMT" value="6595265661591641053" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Give" />
     <property role="34LRSv" value="give" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -127,7 +127,7 @@
   </node>
   <node concept="1TIwiD" id="5I75MOew7T6">
     <property role="EcuMT" value="6595265661591649862" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="And" />
     <property role="34LRSv" value="and" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -140,7 +140,7 @@
   </node>
   <node concept="1TIwiD" id="5I75MOewafK">
     <property role="EcuMT" value="6595265661591659504" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Or" />
     <property role="34LRSv" value="or" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -153,7 +153,7 @@
   </node>
   <node concept="PlHQZ" id="5I75MOewafP">
     <property role="EcuMT" value="6595265661591659509" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Pair" />
     <node concept="1TJgyj" id="5I75MOewafQ" role="1TKVEi">
       <property role="IQ2ns" value="6595265661591659510" />
@@ -172,7 +172,7 @@
   </node>
   <node concept="1TIwiD" id="5I75MOewd2H">
     <property role="EcuMT" value="6595265661591670957" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Cond" />
     <property role="34LRSv" value="cond" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -247,7 +247,7 @@
   </node>
   <node concept="1TIwiD" id="5I75MOewmRW">
     <property role="EcuMT" value="6595265661591711228" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Scale" />
     <property role="34LRSv" value="scale" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -271,14 +271,14 @@
   </node>
   <node concept="1TIwiD" id="5I75MOewq_T">
     <property role="EcuMT" value="6595265661591726457" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="When" />
     <property role="34LRSv" value="when" />
     <ref role="1TJDcQ" node="5I75MOewyBe" resolve="Conditional" />
   </node>
   <node concept="1TIwiD" id="5I75MOewyBe">
     <property role="EcuMT" value="6595265661591759310" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Conditional" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -302,17 +302,68 @@
   </node>
   <node concept="1TIwiD" id="5I75MOewBfO">
     <property role="EcuMT" value="6595265661591778292" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Anytime" />
     <property role="34LRSv" value="anytime" />
     <ref role="1TJDcQ" node="5I75MOewyBe" resolve="Conditional" />
   </node>
   <node concept="1TIwiD" id="5I75MOewBQr">
     <property role="EcuMT" value="6595265661591780763" />
-    <property role="3GE5qa" value="contract" />
+    <property role="3GE5qa" value="contract.primitive" />
     <property role="TrG5h" value="Until" />
     <property role="34LRSv" value="until" />
     <ref role="1TJDcQ" node="5I75MOewyBe" resolve="Conditional" />
+  </node>
+  <node concept="1TIwiD" id="5I75MOewGxZ">
+    <property role="EcuMT" value="6595265661591799935" />
+    <property role="TrG5h" value="Module" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="module" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5I75MOewGy0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5I75MOewGyi" role="1TKVEi">
+      <property role="IQ2ns" value="6595265661591799954" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5I75MOewGy5" resolve="ModuleContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5I75MOewGy3">
+    <property role="EcuMT" value="6595265661591799939" />
+    <property role="3GE5qa" value="module" />
+    <property role="TrG5h" value="Newline" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5I75MOewGy9" role="PzmwI">
+      <ref role="PrY4T" node="5I75MOewGy5" resolve="ModuleContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5I75MOewGy4">
+    <property role="EcuMT" value="6595265661591799940" />
+    <property role="3GE5qa" value="module" />
+    <property role="TrG5h" value="ContractFunDef" />
+    <property role="34LRSv" value="fun" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5I75MOewI28" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="5I75MOewGy6" role="PzmwI">
+      <ref role="PrY4T" node="5I75MOewGy5" resolve="ModuleContent" />
+    </node>
+    <node concept="1TJgyj" id="5I75MOewI2e" role="1TKVEi">
+      <property role="IQ2ns" value="6595265661591806094" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="definition" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5I75MOevLkn" resolve="Contract" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5I75MOewGy5">
+    <property role="EcuMT" value="6595265661591799941" />
+    <property role="3GE5qa" value="module" />
+    <property role="TrG5h" value="ModuleContent" />
   </node>
 </model>
 
