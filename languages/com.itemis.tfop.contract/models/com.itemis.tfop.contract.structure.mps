@@ -244,5 +244,29 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5I75MOewmRW">
+    <property role="EcuMT" value="6595265661591711228" />
+    <property role="3GE5qa" value="contract" />
+    <property role="TrG5h" value="Scale" />
+    <property role="34LRSv" value="scale" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5I75MOewmRX" role="PzmwI">
+      <ref role="PrY4T" node="5I75MOevLkn" resolve="Contract" />
+    </node>
+    <node concept="1TJgyj" id="5I75MOewmRZ" role="1TKVEi">
+      <property role="IQ2ns" value="6595265661591711231" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="factor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5I75MOewd2K" resolve="Observable" />
+    </node>
+    <node concept="1TJgyj" id="5I75MOewmS1" role="1TKVEi">
+      <property role="IQ2ns" value="6595265661591711233" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contract" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5I75MOevLkn" resolve="Contract" />
+    </node>
+  </node>
 </model>
 

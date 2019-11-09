@@ -7,6 +7,10 @@
   <imports />
   <registry>
     <language id="4f7dc983-1a81-45a8-8f1f-765d0d971654" name="com.itemis.tfop.contract">
+      <concept id="6595265661591711228" name="com.itemis.tfop.contract.structure.Scale" flags="ng" index="1l1BFh">
+        <child id="6595265661591711233" name="contract" index="1l1B$G" />
+        <child id="6595265661591711231" name="factor" index="1l1BFi" />
+      </concept>
       <concept id="6595265661591641053" name="com.itemis.tfop.contract.structure.Give" flags="ng" index="1l1ONK">
         <child id="6595265661591641056" name="contract" index="1l1ONd" />
       </concept>
@@ -21,6 +25,9 @@
       </concept>
       <concept id="6595265661591670973" name="com.itemis.tfop.contract.structure.BoolValue" flags="ng" index="1l1Wug">
         <property id="6595265661591670976" name="value" index="1l1WvH" />
+      </concept>
+      <concept id="6595265661591670965" name="com.itemis.tfop.contract.structure.DecimalValue" flags="ng" index="1l1Wuo">
+        <property id="6595265661591670968" name="value" index="1l1Wul" />
       </concept>
       <concept id="6595265661591670961" name="com.itemis.tfop.contract.structure.Const" flags="ng" index="1l1Wus">
         <child id="6595265661591670980" name="value" index="1l1WvD" />
@@ -109,6 +116,20 @@
         <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
       </node>
       <node concept="1lY08P" id="5I75MOewgew" role="1l1Vjq" />
+    </node>
+  </node>
+  <node concept="1lY08d" id="5I75MOewq_x">
+    <property role="3GE5qa" value="simple" />
+    <property role="TrG5h" value="ten_eur" />
+    <node concept="1l1BFh" id="5I75MOewq_z" role="1lY09E">
+      <node concept="1l1Wus" id="5I75MOewq_E" role="1l1BFi">
+        <node concept="1l1Wuo" id="5I75MOewq_J" role="1l1WvD">
+          <property role="1l1Wul" value="10" />
+        </node>
+      </node>
+      <node concept="1lYbf4" id="5I75MOewq_M" role="1l1B$G">
+        <ref role="1l1M3o" node="5I75MOew3vL" resolve="EUR" />
+      </node>
     </node>
   </node>
 </model>

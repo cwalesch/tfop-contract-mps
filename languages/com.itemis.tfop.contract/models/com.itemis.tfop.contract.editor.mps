@@ -189,5 +189,21 @@
       <ref role="1NtTu8" to="lypz:5I75MOewd30" resolve="value" />
     </node>
   </node>
+  <node concept="24kQdi" id="5I75MOewmS4">
+    <property role="3GE5qa" value="contract" />
+    <ref role="1XX52x" to="lypz:5I75MOewmRW" resolve="Scale" />
+    <node concept="3EZMnI" id="5I75MOewmS6" role="2wV5jI">
+      <node concept="3F1sOY" id="5I75MOewmSd" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewmRZ" resolve="factor" />
+      </node>
+      <node concept="3F0ifn" id="5I75MOewmSj" role="3EZMnx">
+        <property role="3F0ifm" value="*" />
+      </node>
+      <node concept="3F1sOY" id="5I75MOewmSr" role="3EZMnx">
+        <ref role="1NtTu8" to="lypz:5I75MOewmS1" resolve="contract" />
+      </node>
+      <node concept="l2Vlx" id="5I75MOewmS9" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
